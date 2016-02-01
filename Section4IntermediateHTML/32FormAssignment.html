@@ -4,6 +4,98 @@
         <title>Lecture 32 Assignment</title>
     </head>
     <body>
-
+        <!--<h1>Sign In</h1>-->
+        <!-- Action - Where the form sends data -->
+        <!-- method - what http method (get/post -->
+        <!--<form action="" method="get">-->
+        <!--    <label for="email">Username:</label>-->
+        <!--    <input id="email" name ="Email"type="email" placeholder="email" required>-->
+        <!--    <label for="password">Password:</label>-->
+        <!--    <input id="password" name ="password"type="password" placeholder="password" required>-->
+        <!--    <button>Login</button>-->
+        <!--</form>-->
+        
+        
+        <!--<p>Do you prefer cats or dogs?</p>-->
+        
+        <!--<form>-->
+        <!--    <label for="dogs">Dogs:</label> -->
+        <!--    <input name="petChoice" id="dogs" type="radio" value="DOGS">-->
+        <!--    <label for="cats">Cats:</label>-->
+        <!--    <input name="petChoice" id="cats" type="radio" value="CATS">-->
+        <!--    <button>Go!</button>-->
+            
+        <!--    <p>What's your current mood?</p>-->
+        <!--    <select name="color">-->
+        <!--        <option value="happy">:)</option>-->
+        <!--        <option value="neutral">:|</option>-->
+        <!--        <option value="sad">:(</option>-->
+        <!--    </select>-->
+            
+        <!--    <p> new area</p>-->
+        <!--    <input type="text">-->
+        <!--    <textarea name="paragraph" rows="10" cols="10"></textarea>-->
+        <!--</form>-->
+        
+        <h1>Register</h1>
+        <form action ="" method="get">
+            <div>
+                <label for="firstName">First Name:</label>
+                <input id="firstName" name="firstName" type="text" placeholder="John" required>
+                <label for="lastName">Last Name:</label>
+                <input id="lastName" name="lastName" type="text" placeholder="Smith" required>
+            </div>
+            
+            <div>
+                <label for="male">Male</label>
+                <input name="gender" id="male" type="radio" value="male">
+                <label for="female">Female</label>
+                <input name="gender" id="female" type="radio" value="female">
+                <label for="other">Other</label>
+                <input name="gender" id="other" type="radio" value="other">
+            </div>
+            
+            <div>
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" placeholder="your email" required>
+            <label for="password">Password:</label>
+            <input id="password" name="password" type="password" placeholder="your password" pattern=".{5,10}" required title="5 to 10 characters">
+            </div>
+            
+            <div>
+                <label for="birthdayMonth">Birthday:</label>
+                <select id="birthdayMonth" name="birthdayMonth">
+                    <option>Month</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>...</option>
+                </select>
+                <select id="birthdayDay" name="birthdayDay">
+                    <option>Day</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>...</option>
+                </select>
+                <select id="birthdayYear" name="birthdayYear">
+                    <option>Year</option>
+                    <option>1990</option>
+                    <option>1989</option>
+                    <option>1988</option>
+                    <option>...</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="terms">I agree to the terms and conditons</label>
+                <input id="terms" name="terms" type="checkbox">
+            </div>
+            
+            <input type="submit">
+            
+        </form>
+        
+        
     </body>
 </html>
