@@ -1,0 +1,24 @@
+h1 {
+    color: #54206E;
+  
+   /* border-color:purple;
+    border-width:5px;
+    border-style:solid;
+    */
+    border: 2px solid rgb(50,50,50);
+}
+       
+li {
+    color: rgba(0,255,50,.5);
+}
+
+h4 {
+    background:red;
+}
+
+body{
+    background:pink;
+    /*background: url(http://images3.campingworld.com/CampingWorld/images/products/3000/originals/woodgrain.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;*/
+}
