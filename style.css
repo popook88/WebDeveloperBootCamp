@@ -1,0 +1,44 @@
+body {
+    font-family: "Open Sans";
+    font-size: 16px;
+    background-image: url(img/lightBlueBackground.jpg);
+    /*ice #BAC7DE*/
+    color: #BAC7DE;
+}
+
+a {
+    /*skyBlue #779BDE*/
+    color: #779BDE;
+}
+
+h1 {
+    /*burnt #9F6D65*/
+    color: #9F6D65;
+}
+
+h3 {
+    /*lightBrown #927C4E*/
+    color: #927C4E;
+}
+
+/*colors*/
+/*base #4E6692*/
+/*skyBlue #779BDE*/
+/*darkGrey #8993A4*/
+/*ice #BAC7DE*/
+/*navy #33425F*/
+/*burnt #9F6D65*/
+/*lightBrown #927C4E*/
+
+h1 {
+    font-family: "Oswald";
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+#syllabusContent {
+    padding-left: 10%;
+}
