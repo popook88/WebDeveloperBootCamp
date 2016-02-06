@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Switch.CO programming problem</title>
+       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
+       <link rel="stylesheet" type="text/css" href="switch.css">
+    </head>
+    <body>
+    <div class="container"> 
+        <div class="jumbotron">
+            <h1>Winning Ticket!</h1>
+            
+        
+            <p>Your favorite uncle, Morty, is crazy about the lottery and even 
+            crazier about how he picks his "lucky" numbers. And even though his 
+            "never fail" strategy has yet to succeed, Uncle Morty doesn't let 
+            that get him down.</p>
+            
+            <p>Every week he searches through the Sunday newspaper to find a 
+            string of digits that might be potential lottery picks. But this 
+            week the newspaper has moved to a new electronic format, and 
+            instead of a comfortable pile of papers, Uncle Morty receives a 
+            text file with the stories. </p>
+        </div>
+            
+        <div class="col-md-6">
+            <p>Help your Uncle find his lotto picks. 
+            Given a large series of number strings, 
+            return each that might be suitable for a lottery ticket pick. 
+            Note that a valid lottery ticket must </p>
+            <ul>
+                <li>have 7 unique numbers between 1 and 59</li>
+                <li>digits must be used in order</li>
+                <li>every digit must be used</li>
+            </ul>
+            
+            <p>For example, given the following strings:</p>
+            <p>[ "1", "42". "100848", "4938532894754", "1234567", "472844278465445"]</p>
+            <p>Your function should return:</p>
+            <p>4938532894754 -> 49 38 53 28 9 47 54 <br>
+               1234567 -> 1 2 3 4 5 6 7</p>
+        </div>
+        <div class="col-md-6">
+            <img class="img-responsive" src="http://cache1.asset-cache.net/xd/158929011.jpg?v=1&c=IWSAsset&k=2&d=8A73201EC8CCBB29C7A34206C87C4550CEE1B8399F6AD56E2DFE8810A80BD8C86462EE13F9704DC4">
+        </div>
+               
+        <div id="content" class="jumbotron col-md-8">
+            <h4>Test Cases</h4>
+            <ul id="testCases"></ul>
+            <input id="testCaseInput"></input>
+            <button id="addTestCase" class="btn btn-primary">Add Test Case</button>
+            <button id="runTestCases" class="btn btn-success">Run Test Cases</button>
+            <p id="results"></p>
+        </div>
+        <div id="nameTag" class="centered col-md-4">
+            <h3 class="centered">Kevin Kane</h3>
+            <a href="mailto:kevin@kevinjkane.com">Kevin@Kevinjkane.com</a>   
+            <img class="img-responsive" src="https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-frc3/v/t1.0-9/1897998_10151941264996510_122136361_n.jpg?oh=4ae690a69e2079f67274ec8c20b91795&oe=573186A1">
+        </div>
+    </div>
+    
+      
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+         <script type="text/javascript" src="switch.js"></script>
+    </body>
+</html>
